@@ -17,8 +17,7 @@ print("this is weight: " + String(weight))
 print("test\n")
 print(weight)
 print("\n")
-print("test2", terminator: "\n")
-print("test2")
+print("test2", terminator: "\n"); print("test2")
 
 
 
