@@ -14,6 +14,8 @@
 		E6297B4B28545B7B00AB3CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6297B4928545B7B00AB3CAC /* Main.storyboard */; };
 		E6297B4D28545B7C00AB3CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6297B4C28545B7C00AB3CAC /* Assets.xcassets */; };
 		E6297B5028545B7C00AB3CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6297B4E28545B7C00AB3CAC /* LaunchScreen.storyboard */; };
+		E6521F632854847C0089F1CB /* rds.png in Resources */ = {isa = PBXBuildFile; fileRef = E6521F612854847C0089F1CB /* rds.png */; };
+		E6521F642854847C0089F1CB /* cloudfront.png in Resources */ = {isa = PBXBuildFile; fileRef = E6521F622854847C0089F1CB /* cloudfront.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E6297B4C28545B7C00AB3CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6297B4F28545B7C00AB3CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6297B5128545B7C00AB3CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6521F612854847C0089F1CB /* rds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rds.png; sourceTree = "<group>"; };
+		E6521F622854847C0089F1CB /* cloudfront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudfront.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E6297B4728545B7B00AB3CAC /* ViewController.swift */,
 				E6297B4928545B7B00AB3CAC /* Main.storyboard */,
 				E61DE4E5285477E7003A723E /* ec2.png */,
+				E6521F622854847C0089F1CB /* cloudfront.png */,
+				E6521F612854847C0089F1CB /* rds.png */,
 				E6297B4C28545B7C00AB3CAC /* Assets.xcassets */,
 				E6297B4E28545B7C00AB3CAC /* LaunchScreen.storyboard */,
 				E6297B5128545B7C00AB3CAC /* Info.plist */,
@@ -128,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6521F632854847C0089F1CB /* rds.png in Resources */,
 				E61DE4E6285477E7003A723E /* ec2.png in Resources */,
 				E6297B5028545B7C00AB3CAC /* LaunchScreen.storyboard in Resources */,
+				E6521F642854847C0089F1CB /* cloudfront.png in Resources */,
 				E6297B4D28545B7C00AB3CAC /* Assets.xcassets in Resources */,
 				E6297B4B28545B7B00AB3CAC /* Main.storyboard in Resources */,
 			);

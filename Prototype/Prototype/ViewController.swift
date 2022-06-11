@@ -8,18 +8,34 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var confirmation: UIButton!
-    @IBOutlet var head: UITextField!
-    @IBOutlet var ID: UITextField!
-    @IBOutlet var PW: UITextField!
+    @IBOutlet weak var confirmation: UIButton!
+    @IBOutlet weak var head: UITextField!
+    @IBOutlet weak var ID: UITextField!
+    @IBOutlet weak var PW: UITextField!
+    
+   
+    
+    @IBOutlet var imageWindow: UIImageView!
+    @IBOutlet var ec2: UIImageView!
+    @IBOutlet var cloudfront: UIImageView!
+    @IBOutlet var rds: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    var imageArr: [String] = ["ec2", "cloudfront", "rds"]
+    var cnt = 0
+    
     @IBAction func referButton(_ sender: Any) {
         
+        imageWindow.image = UIImage.init(named: imageArr[cnt])
+        cnt += 1
+        if(cnt > imageArr.count-1){
+            cnt = 0
+        }
         
         
     }
