@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E60B2D78285D4FBC00A8AB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D77285D4FBC00A8AB29 /* AppDelegate.swift */; };
-		E60B2D7A285D4FBC00A8AB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D79285D4FBC00A8AB29 /* SceneDelegate.swift */; };
-		E60B2D7C285D4FBC00A8AB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D7B285D4FBC00A8AB29 /* ViewController.swift */; };
-		E60B2D7F285D4FBC00A8AB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60B2D7D285D4FBC00A8AB29 /* Main.storyboard */; };
-		E60B2D81285D4FBD00A8AB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60B2D80285D4FBD00A8AB29 /* Assets.xcassets */; };
-		E60B2D84285D4FBD00A8AB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60B2D82285D4FBD00A8AB29 /* LaunchScreen.storyboard */; };
-		E60B2D8D285D4FE700A8AB29 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E60B2D8B285D4FE700A8AB29 /* lamp_on.png */; };
-		E60B2D8E285D4FE700A8AB29 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E60B2D8C285D4FE700A8AB29 /* lamp_off.png */; };
+		E60B2D9C285D61B700A8AB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D9B285D61B700A8AB29 /* AppDelegate.swift */; };
+		E60B2D9E285D61B700A8AB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D9D285D61B700A8AB29 /* SceneDelegate.swift */; };
+		E60B2DA0285D61B700A8AB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B2D9F285D61B700A8AB29 /* ViewController.swift */; };
+		E60B2DA3285D61B700A8AB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60B2DA1285D61B700A8AB29 /* Main.storyboard */; };
+		E60B2DA5285D61B800A8AB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60B2DA4285D61B800A8AB29 /* Assets.xcassets */; };
+		E60B2DA8285D61B800A8AB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60B2DA6285D61B800A8AB29 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E60B2D74285D4FBC00A8AB29 /* Lamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E60B2D77285D4FBC00A8AB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E60B2D79285D4FBC00A8AB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E60B2D7B285D4FBC00A8AB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E60B2D7E285D4FBC00A8AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E60B2D80285D4FBD00A8AB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E60B2D83285D4FBD00A8AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E60B2D85285D4FBD00A8AB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E60B2D8B285D4FE700A8AB29 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
-		E60B2D8C285D4FE700A8AB29 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		E60B2D98285D61B700A8AB29 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60B2D9B285D61B700A8AB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E60B2D9D285D61B700A8AB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E60B2D9F285D61B700A8AB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E60B2DA2285D61B700A8AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60B2DA4285D61B800A8AB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60B2DA7285D61B800A8AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E60B2DA9285D61B800A8AB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E60B2D71285D4FBC00A8AB29 /* Frameworks */ = {
+		E60B2D95285D61B700A8AB29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E60B2D6B285D4FBC00A8AB29 = {
+		E60B2D8F285D61B700A8AB29 = {
 			isa = PBXGroup;
 			children = (
-				E60B2D76285D4FBC00A8AB29 /* Lamp */,
-				E60B2D75285D4FBC00A8AB29 /* Products */,
+				E60B2D9A285D61B700A8AB29 /* Clock */,
+				E60B2D99285D61B700A8AB29 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E60B2D75285D4FBC00A8AB29 /* Products */ = {
+		E60B2D99285D61B700A8AB29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E60B2D74285D4FBC00A8AB29 /* Lamp.app */,
+				E60B2D98285D61B700A8AB29 /* Clock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E60B2D76285D4FBC00A8AB29 /* Lamp */ = {
+		E60B2D9A285D61B700A8AB29 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
-				E60B2D77285D4FBC00A8AB29 /* AppDelegate.swift */,
-				E60B2D79285D4FBC00A8AB29 /* SceneDelegate.swift */,
-				E60B2D7B285D4FBC00A8AB29 /* ViewController.swift */,
-				E60B2D7D285D4FBC00A8AB29 /* Main.storyboard */,
-				E60B2D8C285D4FE700A8AB29 /* lamp_off.png */,
-				E60B2D8B285D4FE700A8AB29 /* lamp_on.png */,
-				E60B2D80285D4FBD00A8AB29 /* Assets.xcassets */,
-				E60B2D82285D4FBD00A8AB29 /* LaunchScreen.storyboard */,
-				E60B2D85285D4FBD00A8AB29 /* Info.plist */,
+				E60B2D9B285D61B700A8AB29 /* AppDelegate.swift */,
+				E60B2D9D285D61B700A8AB29 /* SceneDelegate.swift */,
+				E60B2D9F285D61B700A8AB29 /* ViewController.swift */,
+				E60B2DA1285D61B700A8AB29 /* Main.storyboard */,
+				E60B2DA4285D61B800A8AB29 /* Assets.xcassets */,
+				E60B2DA6285D61B800A8AB29 /* LaunchScreen.storyboard */,
+				E60B2DA9285D61B800A8AB29 /* Info.plist */,
 			);
-			path = Lamp;
+			path = Clock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E60B2D73285D4FBC00A8AB29 /* Lamp */ = {
+		E60B2D97285D61B700A8AB29 /* Clock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E60B2D88285D4FBD00A8AB29 /* Build configuration list for PBXNativeTarget "Lamp" */;
+			buildConfigurationList = E60B2DAC285D61B800A8AB29 /* Build configuration list for PBXNativeTarget "Clock" */;
 			buildPhases = (
-				E60B2D70285D4FBC00A8AB29 /* Sources */,
-				E60B2D71285D4FBC00A8AB29 /* Frameworks */,
-				E60B2D72285D4FBC00A8AB29 /* Resources */,
+				E60B2D94285D61B700A8AB29 /* Sources */,
+				E60B2D95285D61B700A8AB29 /* Frameworks */,
+				E60B2D96285D61B700A8AB29 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lamp;
-			productName = Lamp;
-			productReference = E60B2D74285D4FBC00A8AB29 /* Lamp.app */;
+			name = Clock;
+			productName = Clock;
+			productReference = E60B2D98285D61B700A8AB29 /* Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E60B2D6C285D4FBC00A8AB29 /* Project object */ = {
+		E60B2D90285D61B700A8AB29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					E60B2D73285D4FBC00A8AB29 = {
+					E60B2D97285D61B700A8AB29 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = E60B2D6F285D4FBC00A8AB29 /* Build configuration list for PBXProject "Lamp" */;
+			buildConfigurationList = E60B2D93285D61B700A8AB29 /* Build configuration list for PBXProject "Clock" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = E60B2D6B285D4FBC00A8AB29;
-			productRefGroup = E60B2D75285D4FBC00A8AB29 /* Products */;
+			mainGroup = E60B2D8F285D61B700A8AB29;
+			productRefGroup = E60B2D99285D61B700A8AB29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E60B2D73285D4FBC00A8AB29 /* Lamp */,
+				E60B2D97285D61B700A8AB29 /* Clock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E60B2D72285D4FBC00A8AB29 /* Resources */ = {
+		E60B2D96285D61B700A8AB29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60B2D8D285D4FE700A8AB29 /* lamp_on.png in Resources */,
-				E60B2D84285D4FBD00A8AB29 /* LaunchScreen.storyboard in Resources */,
-				E60B2D8E285D4FE700A8AB29 /* lamp_off.png in Resources */,
-				E60B2D81285D4FBD00A8AB29 /* Assets.xcassets in Resources */,
-				E60B2D7F285D4FBC00A8AB29 /* Main.storyboard in Resources */,
+				E60B2DA8285D61B800A8AB29 /* LaunchScreen.storyboard in Resources */,
+				E60B2DA5285D61B800A8AB29 /* Assets.xcassets in Resources */,
+				E60B2DA3285D61B700A8AB29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E60B2D70285D4FBC00A8AB29 /* Sources */ = {
+		E60B2D94285D61B700A8AB29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60B2D7C285D4FBC00A8AB29 /* ViewController.swift in Sources */,
-				E60B2D78285D4FBC00A8AB29 /* AppDelegate.swift in Sources */,
-				E60B2D7A285D4FBC00A8AB29 /* SceneDelegate.swift in Sources */,
+				E60B2DA0285D61B700A8AB29 /* ViewController.swift in Sources */,
+				E60B2D9C285D61B700A8AB29 /* AppDelegate.swift in Sources */,
+				E60B2D9E285D61B700A8AB29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E60B2D7D285D4FBC00A8AB29 /* Main.storyboard */ = {
+		E60B2DA1285D61B700A8AB29 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E60B2D7E285D4FBC00A8AB29 /* Base */,
+				E60B2DA2285D61B700A8AB29 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E60B2D82285D4FBD00A8AB29 /* LaunchScreen.storyboard */ = {
+		E60B2DA6285D61B800A8AB29 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E60B2D83285D4FBD00A8AB29 /* Base */,
+				E60B2DA7285D61B800A8AB29 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E60B2D86285D4FBD00A8AB29 /* Debug */ = {
+		E60B2DAA285D61B800A8AB29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		E60B2D87285D4FBD00A8AB29 /* Release */ = {
+		E60B2DAB285D61B800A8AB29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +280,7 @@
 			};
 			name = Release;
 		};
-		E60B2D89285D4FBD00A8AB29 /* Debug */ = {
+		E60B2DAD285D61B800A8AB29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,7 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QJ6ZSTDW9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lamp/Info.plist;
+				INFOPLIST_FILE = Clock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nyoungy.Lamp;
+				PRODUCT_BUNDLE_IDENTIFIER = nyoungy.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		E60B2D8A285D4FBD00A8AB29 /* Release */ = {
+		E60B2DAE285D61B800A8AB29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QJ6ZSTDW9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lamp/Info.plist;
+				INFOPLIST_FILE = Clock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nyoungy.Lamp;
+				PRODUCT_BUNDLE_IDENTIFIER = nyoungy.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E60B2D6F285D4FBC00A8AB29 /* Build configuration list for PBXProject "Lamp" */ = {
+		E60B2D93285D61B700A8AB29 /* Build configuration list for PBXProject "Clock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E60B2D86285D4FBD00A8AB29 /* Debug */,
-				E60B2D87285D4FBD00A8AB29 /* Release */,
+				E60B2DAA285D61B800A8AB29 /* Debug */,
+				E60B2DAB285D61B800A8AB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E60B2D88285D4FBD00A8AB29 /* Build configuration list for PBXNativeTarget "Lamp" */ = {
+		E60B2DAC285D61B800A8AB29 /* Build configuration list for PBXNativeTarget "Clock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E60B2D89285D4FBD00A8AB29 /* Debug */,
-				E60B2D8A285D4FBD00A8AB29 /* Release */,
+				E60B2DAD285D61B800A8AB29 /* Debug */,
+				E60B2DAE285D61B800A8AB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E60B2D6C285D4FBC00A8AB29 /* Project object */;
+	rootObject = E60B2D90285D61B700A8AB29 /* Project object */;
 }
