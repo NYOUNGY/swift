@@ -13,9 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Timer.scheduledTimer(timeInterval: <#T##TimeInterval#>, target: <#T##Any#>, selector: <#T##Selector#>, userInfo: <#T##Any?#>, repeats: <#T##Bool#>)
+        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(liveClock), userInfo: nil, repeats: true)
     }
 
-
+    @objc func liveClock(){
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        clock.text = formatter.string(from: Date())
+    }
 }
 
