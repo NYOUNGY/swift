@@ -9,8 +9,10 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
+    @IBOutlet var imageName: UITextField!
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+        return 2
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -21,8 +23,17 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return "\(row + 1)"
     }
     
-
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if(component == 0){
+            landscape.image = UIImage(named: "\(row + 1).jpg")
+        }
+        if(component == 1){
+            imageName.text = "\(row + 1).jpg"
+        }
+    }
+    
     @IBOutlet var pickerView: UIPickerView!
+    @IBOutlet var landscape: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
