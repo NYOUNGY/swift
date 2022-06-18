@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        myDate.text = "시간을 선택하세요"
         //1초마다 liveClock 호출
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(liveClock), userInfo: nil, repeats: true)
         
