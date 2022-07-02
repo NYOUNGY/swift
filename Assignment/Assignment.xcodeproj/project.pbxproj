@@ -13,6 +13,7 @@
 		E6AAB4D22870022F00326B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AAB4D02870022F00326B6D /* Main.storyboard */; };
 		E6AAB4D42870022F00326B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AAB4D32870022F00326B6D /* Assets.xcassets */; };
 		E6AAB4D72870022F00326B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AAB4D52870022F00326B6D /* LaunchScreen.storyboard */; };
+		E6AAB4E5287007A500326B6D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AAB4E4287007A500326B6D /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E6AAB4D32870022F00326B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6AAB4D62870022F00326B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6AAB4D82870022F00326B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AAB4E4287007A500326B6D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E6AAB4CA2870022F00326B6D /* AppDelegate.swift */,
 				E6AAB4CC2870022F00326B6D /* SceneDelegate.swift */,
 				E6AAB4CE2870022F00326B6D /* ViewController.swift */,
+				E6AAB4E4287007A500326B6D /* MovieTableViewCell.swift */,
 				E6AAB4D02870022F00326B6D /* Main.storyboard */,
 				E6AAB4D32870022F00326B6D /* Assets.xcassets */,
 				E6AAB4D52870022F00326B6D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				E6AAB4CF2870022F00326B6D /* ViewController.swift in Sources */,
 				E6AAB4CB2870022F00326B6D /* AppDelegate.swift in Sources */,
+				E6AAB4E5287007A500326B6D /* MovieTableViewCell.swift in Sources */,
 				E6AAB4CD2870022F00326B6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
